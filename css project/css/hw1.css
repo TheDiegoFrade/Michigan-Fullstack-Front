@@ -1,0 +1,133 @@
+body{
+	padding: 5px;
+	margin: 5px;
+}
+
+header{
+	text-align: center;
+	background-image: url('../images/flywheel.jpg');
+	background-color:rgba(255,255,255) ;
+	padding: 40px;
+	margin: 4px;
+}
+
+h1{
+	color:rgba(255,255,255);
+	text-transform: uppercase;
+	font-size: 20px;
+}
+
+h2{
+	color: rgb(0, 0, 0);
+}
+
+
+nav a,a:visited{
+	background-color: rgba(255,255,255, 0.3);
+	color:rgb(0, 0, 0);
+	padding: 8px 20px;
+	margin: 10px;
+	text-decoration: none;
+	border-radius: 3px;
+	display: inline-block;
+}
+
+.active {
+	background-color: rgba(255,255,255);
+}
+
+.left {
+	display:block;
+    width:20%;
+	height:100%;
+    float:left;
+	background-color:rgb(85, 107, 47);
+	position:absolute;
+}
+
+
+.right {
+	display:inline-block;
+    width:79%;
+    float:right;
+    font-family:"Times New Roman", Times, serif;
+    font-size:100%;
+    background-color:#ffffff;
+}
+
+
+img{
+	display:block;
+    width:75%;
+    /*height:auto; */
+    margin:0 auto;
+    margin-top:30%;
+    margin-bottom:30%;
+    border:2px solid #000000;
+    vertical-align:middle;
+}
+
+table{
+	margin: 0 auto;
+	width: 80%;
+	font-size: 100%;
+	line-height: 100%;
+	text-align: center;
+	border-spacing: 2px;
+	opacity: .75;
+}
+
+tr > th {
+	background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(121,109,9,1) 18%);
+	border-radius: 5px 5px 0px 0px;
+	color:rgb(255,255,255);
+	font-family: sans-serif;
+	font-size: 50%;
+	width: 100%;
+	padding: 5px 30px 5px 30px;
+	border-bottom: solid rgb(179, 255, 153);
+	
+}
+
+th:first-child {
+	text-align: left;
+	padding-left: 10px;
+}
+
+td:first-child {
+	text-align: left;
+	opacity: .75;
+	border-radius: 2px;
+	text-shadow:  rgb(160,160,160);
+}
+
+tr > td {
+	background-color: rgb(238, 255, 230);
+	color: rgb(160,160,160);
+	font-family: sans-serif;
+	font-weight: bold;
+	font-size: 50%;
+	padding: 10px 10px 10px 10px;
+	text-align: center;
+	opacity: .75;
+	border-radius: 2px;
+	text-shadow:  rgb(160,160,160);
+}
+
+td:hover {
+	opacity: 1;
+}
+
+th:last-child {
+	display: inline-block;
+	padding:  10px 0px 10px 0px;
+	text-align: center;
+}
+
+td:last-child {
+	padding:10px 20px 10px 20px ;
+	text-align: center;
+	opacity: .6;
+	border-radius: 2px;
+	text-shadow:  rgb(160,160,160);
+}
